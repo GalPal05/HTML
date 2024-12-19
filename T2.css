@@ -1,0 +1,57 @@
+
+.general {
+    background-color: #f3ffe3;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+
+.flex-container-info {
+    width: 700px;
+    height: 622.28px;
+    padding-left: 1.6%;
+    flex: 1 1 calc(33.33% - 20px)
+}
+
+.top-buttons {
+    background-color: white;
+    justify-content: center;
+    display: flex;
+
+}
+
+.screenshot {
+    width: 100%;
+    height: auto;
+}
+
+.buttons {
+    background: transparent;
+    border: none;
+    
+}
+
+.icon {
+    width: 26px;
+    height: 38px;
+}
+
+.top-text {
+    font-size: 4rem;
+    max-width: 45%;
+}
+
+.info-container {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: sans-serif;
+}

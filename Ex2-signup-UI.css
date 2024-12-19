@@ -1,0 +1,74 @@
+.sign-in-container {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.sign-in-form {
+    /* on its own this does not do anything, 
+    but it serves as a reference point for the child element,
+    which is positioned absolutely */
+    position: relative; 
+}
+
+.sign-in-form label {
+    position: absolute;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    left: 99px;
+    top: -5px;
+    font-size: 10px;
+}
+
+.sign-in-form input {
+    width: 300px;
+    padding: 5px;
+}
+
+.text-over-line {
+    position: relative;
+    top: -20px;
+    background-color: white;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.third-party-signup {
+    border: 1px solid black;
+    width: 300px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+h2 {
+    font-family: "Oxygen", sans-serif;
+    font-size: 17px;
+    margin: 22px;
+    margin-bottom: 5px;
+}
+
+.icon {
+    width: 14px;
+    height: 14px;
+}
+
+.signup-button {
+    background: black;
+    color: white;
+    margin: 25px;
+}
+
+.bottompart {
+    margin: 16px;
+}
+
+p {
+    margin-top: 9px;
+    margin-bottom: 25px;
+}

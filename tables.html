@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                color: #c80318;
+            }
+
+            h2 {
+                color: #797b77;
+                text-transform: uppercase;
+            }
+
+            table.financial {
+                width: 100%;
+                border-spacing: 0;
+            }
+
+            .headers {
+                text-align: left;
+            }
+
+            .data {
+                text-align: right;
+            }
+
+            th {
+                border-bottom: 2px solid red;
+                padding-right: 5px;
+            }
+
+            td {
+                padding: 3px;
+                padding-right: 5px;
+            }
+
+            .highlight {
+                background-color: #e9e7df;
+            }
+
+            tfoot td {
+                border-top: 2px solid black;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>REVENUE</h1>
+        <h2>Revenue by Market Area</h2>
+        <table class="financial">
+            <thead>
+                <tr>
+                    <th class="headers">EUR thousand</th>
+                    <th class="data highlight">7-9/2022</th>
+                    <th class="data">7-9/2021</th>
+                    <th class="data">Change</th>
+                    <th class="data highlight">1-9/2022</th>
+                    <th class="data">1-9/2021</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Finland</td>
+                    <td class="data highlight">6,971</td>
+                    <td class="data">10,053</td>
+                    <td class="data">-30,7%</td>
+                    <td class="data highlight">29,050</td>
+                    <td class="data">28,395</td>
+                </tr>
+                <tr>
+                    <td>Scandinavia</td>
+                    <td class="data highlight">2,312</td>
+                    <td class="data">2,589</td>
+                    <td class="data">-10,7%</td>
+                    <td class="data highlight">7,013</td>
+                    <td class="data">6,693</td>
+                </tr>
+                <tr>
+                    <td>Germany</td>
+                    <td class="data highlight">5,717</td>
+                    <td class="data">9,094</td>
+                    <td class="data">-37,1%</td>
+                    <td class="data highlight">20,708</td>
+                    <td class="data">26,667</td>
+                </tr>
+                <tr>
+                    <td>Other European countries</td>
+                    <td class="data highlight">10,710</td>
+                    <td class="data">13,148</td>
+                    <td class="data">-18,5%</td>
+                    <td class="data highlight">36,060</td>
+                    <td class="data">36,358</td>
+                </tr>
+                <tr>
+                    <td>Russia</td>
+                    <td class="data highlight">1,655</td>
+                    <td class="data">2,913</td>
+                    <td class="data">-43,2%</td>
+                    <td class="data highlight">6,597</td>
+                    <td class="data">7,874</td>
+                </tr>
+                <tr>
+                    <td>North America</td>
+                    <td class="data highlight">7,894</td>
+                    <td class="data">6,590</td>
+                    <td class="data">19,8%</td>
+                    <td class="data highlight">26,430</td>
+                    <td class="data">21,726</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td class="data highlight">13,471</td>
+                    <td class="data">17,053</td>
+                    <td class="data">21%</td>
+                    <td class="data highlight">51,050</td>
+                    <td class="data">52,500</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
